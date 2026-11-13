@@ -2,13 +2,19 @@
 
 Static privacy policy for the NETVIO app.
 
-## Target URL
+## Live URL
 
 ```text
 https://doviostudioapps.github.io/NETVIO-privacy/
 ```
 
-This URL becomes active after the repository is published with GitHub Pages.
+Repository:
+
+```text
+https://github.com/doviostudioapps/NETVIO-privacy
+```
+
+The page is deployed with GitHub Pages from the `main` branch.
 
 ## Publish with a new repository
 
