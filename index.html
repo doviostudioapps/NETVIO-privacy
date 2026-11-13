@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="NETVIO Privacy Policy / Chính sách quyền riêng tư">
+  <title>NETVIO — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #07111c;
+      --panel: #0d1c2b;
+      --panel-2: #10253a;
+      --text: #e8f2fb;
+      --muted: #9bb0c3;
+      --line: #20384e;
+      --accent: #37d6ff;
+      --accent-2: #56f0a7;
+      --warning: #ffd166;
+      --max: 920px;
+      --radius: 18px;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f3f8fc;
+        --panel: #ffffff;
+        --panel-2: #eaf4fb;
+        --text: #10202d;
+        --muted: #536b7d;
+        --line: #d5e3ee;
+        --accent: #007fa8;
+        --accent-2: #087a4a;
+        --warning: #8a5a00;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 15% 0%, rgba(55, 214, 255, .13), transparent 34rem), var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 54px 0 30px; }
+    .brand { display: flex; align-items: center; gap: 13px; margin-bottom: 34px; }
+    .mark {
+      width: 44px; height: 44px; border-radius: 13px;
+      display: grid; place-items: center;
+      background: linear-gradient(145deg, var(--accent), #176d8f);
+      color: #00131e; font-weight: 900; letter-spacing: -.08em; font-size: 17px;
+      box-shadow: 0 0 30px rgba(55, 214, 255, .22);
+    }
+    .brand strong { display: block; letter-spacing: .16em; font-size: 14px; }
+    .brand span { display: block; color: var(--muted); font-size: 12px; letter-spacing: .08em; }
+    h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.08; margin: 0 0 12px; letter-spacing: -.035em; }
+    .lede { color: var(--muted); max-width: 720px; margin: 0; font-size: 17px; }
+    .meta {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 1px; background: var(--line); border: 1px solid var(--line);
+      border-radius: var(--radius); overflow: hidden; margin: 26px 0 0;
+    }
+    .meta div { background: var(--panel); padding: 14px 16px; }
+    .meta dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .09em; }
+    .meta dd { margin: 3px 0 0; font-size: 14px; font-weight: 600; }
+    .lang-nav { display: flex; gap: 8px; margin: 22px 0 0; flex-wrap: wrap; }
+    .lang-nav a {
+      text-decoration: none; border: 1px solid var(--line); background: var(--panel);
+      border-radius: 999px; padding: 7px 13px; font-size: 13px;
+    }
+    .lang-nav a:hover { border-color: var(--accent); }
+    main { padding-bottom: 64px; }
+    section { margin-top: 28px; }
+    .card {
+      background: linear-gradient(160deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--line); border-radius: var(--radius); padding: 24px;
+    }
+    h2 { font-size: clamp(22px, 4vw, 30px); margin: 0 0 10px; letter-spacing: -.02em; }
+    h3 { font-size: 16px; margin: 24px 0 7px; color: var(--accent); }
+    h3:first-child { margin-top: 0; }
+    p { margin: 0 0 11px; }
+    ul { margin: 6px 0 12px; padding-left: 22px; }
+    li { margin: 5px 0; }
+    .muted { color: var(--muted); }
+    .note {
+      border-left: 3px solid var(--warning); background: rgba(255, 209, 102, .07);
+      padding: 12px 14px; border-radius: 8px; margin: 14px 0; font-size: 14px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 12px 0; }
+    .grid .box { border: 1px solid var(--line); border-radius: 12px; padding: 13px; background: rgba(255,255,255,.015); }
+    .grid .box strong { display: block; font-size: 13px; margin-bottom: 3px; }
+    code { font: .9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--accent-2); }
+    footer { border-top: 1px solid var(--line); color: var(--muted); padding: 22px 0 42px; font-size: 13px; }
+    .en { border-top: 1px solid var(--line); margin-top: 42px; padding-top: 34px; }
+    .en h2 { font-size: clamp(20px, 4vw, 28px); }
+    @media (max-width: 520px) {
+      header { padding-top: 34px; }
+      .card { padding: 18px; }
+      .meta { grid-template-columns: 1fr 1fr; }
+    }
+    @media print {
+      body { background: #fff; color: #000; }
+      .lang-nav, .brand .mark { display: none; }
+      .card, .meta { break-inside: avoid; border-color: #bbb; background: #fff; }
+      a { color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="mark" aria-hidden="true">&gt;_</div>
+        <div>
+          <strong>NETVIO</strong>
+          <span>DOVIO STUDIO · NETWORK &amp; REMOTE TERMINAL TOOLKIT</span>
+        </div>
+      </div>
+      <h1>Chính sách quyền riêng tư<br><span style="color:var(--muted);font-size:.5em;letter-spacing:0">Privacy Policy</span></h1>
+      <p class="lede">NETVIO là bộ công cụ quản trị mạng và terminal từ xa. Dữ liệu của bạn được lưu trên thiết bị; ứng dụng không có telemetry, quảng cáo, tài khoản hay đồng bộ đám mây.</p>
+      <dl class="meta">
+        <div><dt>Ứng dụng</dt><dd>NETVIO</dd></div>
+        <div><dt>Package Android</dt><dd>com.dovio.netvio</dd></div>
+        <div><dt>Phiên bản áp dụng</dt><dd>1.2.0</dd></div>
+        <div><dt>Nhà phát hành</dt><dd>Dovio Studio</dd></div>
+        <div><dt>Liên hệ</dt><dd><a href="mailto:dovio.support@gmail.com">dovio.support@gmail.com</a></dd></div>
+        <div><dt>Hiệu lực từ</dt><dd>13/11/2026</dd></div>
+      </dl>
+      <nav class="lang-nav" aria-label="Ngôn ngữ">
+        <a href="#vi">Tiếng Việt</a>
+        <a href="#en">English</a>
+        <a href="https://github.com/doviostudioapps" rel="noopener">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="vi" class="card">
+        <h2>Chính sách quyền riêng tư — NETVIO</h2>
+        <p class="muted">Áp dụng cho ứng dụng NETVIO trên Android và iOS. Chính sách này giải thích NETVIO xử lý dữ liệu như thế nào. Đây là bản công bố kỹ thuật, không thay thế tư vấn pháp lý tại từng quốc gia.</p>
+
+        <h3>1. Tóm tắt</h3>
+        <p>NETVIO không có telemetry, analytics, SDK quảng cáo, tài khoản người dùng hay đồng bộ đám mây. Hồ sơ máy chủ, lịch sử và cài đặt được lưu cục bộ trên thiết bị. Mật khẩu, khóa riêng và cụm mật khẩu được lưu trong Android Keystore / iOS Keychain và không được đưa vào file xuất cấu hình.</p>
+
+        <h3>2. Dữ liệu được lưu trên thiết bị</h3>
+        <ul>
+          <li>Thông tin hồ sơ SSH/SFTP/Telnet/VNC: tên, host, port, username, nhóm, ghi chú, yêu thích và thời gian kết nối.</li>
+          <li>Lịch sử kết nối và lịch sử TCPing trong một cửa sổ giới hạn.</li>
+          <li>Khóa host SSH đã tin cậy và fingerprint.</li>
+          <li>Cài đặt ứng dụng; hash PIN bằng PBKDF2-HMAC-SHA256; phiên bản và thời điểm chấp nhận Điều khoản sử dụng.</li>
+          <li>Kết quả LAN Scanner và camera fingerprint chỉ nằm trong bộ nhớ trong phiên chạy; không tự động tải lên máy chủ.</li>
+          <li>File tải xuống và file cấu hình do bạn chủ động xuất, nằm trong thư mục tài liệu của ứng dụng hoặc vị trí bạn chọn.</li>
+        </ul>
+
+        <h3>3. Thông tin đăng nhập và bảo mật</h3>
+        <p>Mật khẩu, khóa riêng và passphrase chỉ được ghi vào secure storage của hệ điều hành (Android Keystore / iOS Keychain). Ứng dụng không ghi các giá trị này vào SQLite, log hay file xuất. Khi xóa hồ sơ, mục secure storage tương ứng cũng bị xóa; ứng dụng có thao tác “Remove saved credentials”.</p>
+        <div class="note">VNC Authentication là cơ chế legacy, chỉ chứng minh bạn biết mật khẩu và <strong>không mã hóa phiên</strong>. Chỉ dùng VNC trên mạng tin cậy hoặc qua VPN/SSH tunnel.</div>
+
+        <h3>4. Hoạt động mạng và dịch vụ bên thứ ba</h3>
+        <p>Mọi kết nối do bạn chủ động thực hiện. Tùy công cụ, NETVIO có thể kết nối tới:</p>
+        <ul>
+          <li>Host SSH/SFTP/Telnet/VNC do bạn cấu hình;</li>
+          <li>DNS server bạn chọn (UDP/TCP 53);</li>
+          <li>WHOIS registry server (TCP 43);</li>
+          <li><code>ipwho.is</code> cho tra cứu IP/ASN/geolocation;</li>
+          <li><code>api.macvendors.com</code> cho tra cứu nhà sản xuất MAC/OUI;</li>
+          <li>Endpoint HTTP/HTTPS bạn nhập cho công cụ header, status và TLS.</li>
+        </ul>
+        <p>Các công cụ IP/MAC hiển thị rõ dịch vụ bên ngoài trước khi gửi truy vấn. NETVIO không proxy, không bán và không tải kết quả lên máy chủ của Dovio Studio.</p>
+        <p><strong>LAN Scanner / Camera Finder:</strong> chỉ quét dải IPv4 riêng hoặc dải được phép; chặn dải public mặc định; cần xác nhận quyền trước mỗi lần quét. Camera fingerprint dùng banner HTTP/RTSP/ONVIF tiêu chuẩn, không thử mật khẩu, không khai thác lỗ hổng và không mở luồng camera.</p>
+
+        <h3>5. Quyền truy cập thiết bị</h3>
+        <div class="grid">
+          <div class="box"><strong>Internet &amp; network state</strong>Cần cho các công cụ mạng và kết nối do bạn yêu cầu.</div>
+          <div class="box"><strong>Wi-Fi state</strong>Hiển thị thông tin mạng cục bộ khi nền tảng cho phép.</div>
+          <div class="box"><strong>Sinh trắc học</strong>Tùy chọn mở khóa ứng dụng; dữ liệu sinh trắc học do hệ điều hành xử lý.</div>
+          <div class="box"><strong>Local network (iOS)</strong>Kết nối tới thiết bị trong LAN khi bạn yêu cầu.</div>
+          <div class="box"><strong>File picker</strong>Chỉ mở khi bạn chọn file để nhập/xuất hoặc tải lên SFTP.</div>
+        </div>
+        <p>NETVIO hiện không yêu cầu quyền camera, micro, danh bạ hay vị trí. Một số trường Wi-Fi như SSID/BSSID có thể không khả dụng nếu hệ điều hành yêu cầu quyền vị trí mà ứng dụng không xin.</p>
+
+        <h3>6. Quảng cáo, analytics và theo dõi</h3>
+        <p>NETVIO không có quảng cáo, không tích hợp AdMob/analytics SDK, không dùng Advertising ID và không theo dõi hành vi. Không có tài khoản, không có cloud sync và không có máy chủ lưu dữ liệu người dùng.</p>
+
+        <h3>7. Chia sẻ, lưu trữ và xóa dữ liệu</h3>
+        <p>Chúng tôi không bán, cho thuê hoặc chia sẻ dữ liệu của bạn. Dữ liệu chỉ rời thiết bị khi bạn chủ động xuất/chia sẻ file hoặc khi một công cụ tra cứu gửi truy vấn tới dịch vụ bên ngoài như mục 4. Dữ liệu tồn tại cho đến khi bạn xóa trong ứng dụng, xóa dữ liệu ứng dụng hoặc gỡ cài đặt. Không có máy chủ Dovio Studio để xóa dữ liệu thay bạn.</p>
+
+        <h3>8. Bảo mật và giới hạn</h3>
+        <p>Dữ liệu nằm trong sandbox của ứng dụng. PIN được băm bằng PBKDF2-HMAC-SHA256 với muối ngẫu nhiên, xác thực ngoài UI isolate và có lockout sau nhiều lần sai. Tuy nhiên, cơ sở dữ liệu SQLite <strong>không được mã hóa toàn bộ</strong>; metadata như hostname, username và ghi chú có thể đọc được nếu thiết bị bị xâm nhập. Hãy bật khóa màn hình và mã hóa bộ nhớ thiết bị.</p>
+
+        <h3>9. Trẻ em</h3>
+        <p>NETVIO là công cụ dành cho người quản trị mạng chuyên nghiệp, không hướng đến trẻ em dưới 13 tuổi (hoặc độ tuổi tối thiểu theo khu vực) và không tạo tài khoản người dùng.</p>
+
+        <h3>10. Người dùng quốc tế</h3>
+        <p>NETVIO hỗ trợ tiếng Việt và tiếng Anh. Dữ liệu vẫn lưu trên thiết bị ở mọi quốc gia. Các dịch vụ tra cứu bên ngoài có thể xử lý truy vấn theo chính sách của họ tại quốc gia của họ.</p>
+
+        <h3>11. Thay đổi chính sách</h3>
+        <p>Chính sách có thể được cập nhật khi ứng dụng thay đổi. Bản mới sẽ được công bố tại trang này với ngày hiệu lực mới. Thay đổi quan trọng sẽ được ghi trong phần mô tả phiên bản trên cửa hàng.</p>
+
+        <h3>12. Liên hệ</h3>
+        <p>Câu hỏi về quyền riêng tư: <a href="mailto:dovio.support@gmail.com">dovio.support@gmail.com</a>. Về điều khoản sử dụng và giới hạn truy cập, xem mục Terms of Use trong ứng dụng.</p>
+      </section>
+
+      <section id="en" class="card en">
+        <h2>Privacy Policy — NETVIO</h2>
+        <p class="muted">This policy applies to NETVIO on Android and iOS. It explains how NETVIO handles data. It is an engineering disclosure, not legal advice for every jurisdiction.</p>
+
+        <h3>1. Summary</h3>
+        <p>NETVIO has no telemetry, analytics, advertising SDK, user account or cloud sync. Server profiles, history and settings are stored locally on your device. Passwords, private keys and passphrases are stored in Android Keystore / iOS Keychain and are not included in configuration exports.</p>
+
+        <h3>2. Data stored on your device</h3>
+        <ul>
+          <li>SSH/SFTP/Telnet/VNC profile metadata: label, host, port, username, group, notes, favourite flag and connection timestamps.</li>
+          <li>Connection and TCPing history in a small rolling window.</li>
+          <li>Trusted SSH host keys and fingerprints.</li>
+          <li>App settings; a PBKDF2-HMAC-SHA256 PIN hash; Terms of Use version and acceptance timestamp.</li>
+          <li>LAN Scanner and camera fingerprint results stay in memory for the session and are not uploaded automatically.</li>
+          <li>Downloads and configuration files you explicitly export, kept in the app documents directory or a location you choose.</li>
+        </ul>
+
+        <h3>3. Credentials and security</h3>
+        <p>Passwords, private keys and passphrases are written only to platform secure storage (Android Keystore / iOS Keychain). They are never written to SQLite, logs or configuration exports. Deleting a profile deletes its secure-storage entry; the app also provides “Remove saved credentials”.</p>
+        <div class="note">VNC Authentication is legacy: it proves knowledge of a password and does <strong>not encrypt</strong> the session. Use VNC only on trusted networks or through a VPN/SSH tunnel.</div>
+
+        <h3>4. Network operations and third parties</h3>
+        <p>All connections are initiated by you. Depending on the tool, NETVIO may contact:</p>
+        <ul>
+          <li>the SSH/SFTP/Telnet/VNC host you configure;</li>
+          <li>the DNS server you select (UDP/TCP 53);</li>
+          <li>WHOIS registry servers (TCP 43);</li>
+          <li><code>ipwho.is</code> for IP/ASN/geolocation lookup;</li>
+          <li><code>api.macvendors.com</code> for MAC/OUI vendor lookup;</li>
+          <li>HTTP/HTTPS endpoints you enter for header, status and TLS tools.</li>
+        </ul>
+        <p>IP and MAC tools disclose the external service before sending a query. NETVIO does not proxy, sell or upload results to a Dovio Studio server.</p>
+        <p><strong>LAN Scanner / Camera Finder:</strong> scans are limited to private IPv4 ranges or explicitly authorized ranges; public ranges are blocked by default; every scan requires an authorization confirmation. Camera fingerprinting uses standard HTTP/RTSP/ONVIF banners only. It never attempts passwords, exploits firmware or opens camera streams.</p>
+
+        <h3>5. Device permissions</h3>
+        <div class="grid">
+          <div class="box"><strong>Internet &amp; network state</strong>Required for network tools and connections you request.</div>
+          <div class="box"><strong>Wi-Fi state</strong>Displays local network information where the platform permits.</div>
+          <div class="box"><strong>Biometrics</strong>Optional app unlock; biometric data is handled by the operating system.</div>
+          <div class="box"><strong>Local network (iOS)</strong>Reaches LAN devices when you request it.</div>
+          <div class="box"><strong>File picker</strong>Opened only when you choose a file to import/export or upload over SFTP.</div>
+        </div>
+        <p>NETVIO does not currently request camera, microphone, contacts or location. Some Wi-Fi fields such as SSID/BSSID may be unavailable when the operating system requires location permission that the app does not request.</p>
+
+        <h3>6. Ads, analytics and tracking</h3>
+        <p>NETVIO has no ads, no AdMob/analytics SDKs, no Advertising ID and no behavioural tracking. There is no account, cloud sync or server storing user data.</p>
+
+        <h3>7. Sharing, retention and deletion</h3>
+        <p>We do not sell, rent or share your data. Data leaves the device only when you explicitly export/share a file or when a lookup tool sends a query to an external service described in section 4. Data remains until you delete it in the app, clear app data or uninstall the app. There is no Dovio Studio server that can delete data for you.</p>
+
+        <h3>8. Security and limitations</h3>
+        <p>Data is stored in the app sandbox. The PIN is hashed with PBKDF2-HMAC-SHA256 and a random salt, verified off the UI isolate, with lockout after repeated failures. The SQLite database is <strong>not fully encrypted</strong>; metadata such as hostnames, usernames and notes may be readable if the device is compromised. Enable device lock and storage encryption.</p>
+
+        <h3>9. Children</h3>
+        <p>NETVIO is a professional network administration tool, not directed at children under 13 (or the minimum age in your region), and does not create user accounts.</p>
+
+        <h3>10. International users</h3>
+        <p>NETVIO supports Vietnamese and English. Data remains on the device in every country. External lookup services may process queries under their own policies in their own jurisdictions.</p>
+
+        <h3>11. Policy changes</h3>
+        <p>This policy may be updated when the app changes. A new version will be published on this page with a new effective date. Material changes will be noted in the store release notes.</p>
+
+        <h3>12. Contact</h3>
+        <p>Privacy questions: <a href="mailto:dovio.support@gmail.com">dovio.support@gmail.com</a>. For authorized-use terms and access limits, see Terms of Use in the app.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Dovio Studio · NETVIO · Privacy Policy v1.2.0 · Effective 13/11/2026<br>
+      <span class="muted">This page is static and contains no cookies, analytics, ads or external scripts.</span>
+    </footer>
+  </div>
+</body>
+</html>
